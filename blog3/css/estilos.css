@@ -1,0 +1,88 @@
+body{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header{
+
+  background: blue;
+  background-attachment: fixed; 
+
+}
+nav li a{
+  font-size: 10px;
+}
+
+.icons1{
+margin-top: -13px;
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+}
+
+.contenido{
+margin-top:  35px;
+
+}
+.redes{
+  width: 50px;
+  height: 50px;
+
+}
+
+.scene{
+  width: 350px;
+  height: 350px;
+  margin-bottom: 15px;
+}
+
+
+.scene2{
+  width: 350px;
+  height: 600px;
+}
+.card-image{
+  float: left;
+  width: 160px;
+  height: 160px;
+  padding-left: 15px;
+}
+.autor{
+width: 50%;
+height: 50%;
+text-align: center;
+margin-top: 10px;
+}
+
+.autor p{
+  font-size: 12px;
+}
+.boton{
+  background: #333333;
+  margin-bottom: 15px;
+  float: right;
+}
+::placeholder { color: white; }
+
+.botonmenu{
+  background: #333333;
+}
+@media only screen and (max-width: 414px) {
+
+.slogan{
+  font-size: 20px;
+  text-align: left;
+}
+.logo{
+  margin-left: 0px;
+
+}
+
+.galeria img{
+  padding-right:   20px;
+}

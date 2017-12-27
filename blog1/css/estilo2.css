@@ -1,0 +1,140 @@
+.blog-musica{
+  background: firebrick;
+}
+
+.contenedor-principal{
+  background-color: white;
+  width: 97%;
+
+  margin: 20px auto;
+
+}
+header{
+
+  max-width: 100%;
+
+}
+
+.logo-redes{
+  height: 100px;
+}
+
+.logo-img{
+width: 100px;
+height: 100px;
+padding-left: 25px;
+}
+
+.redes-sociales{
+  float: right;
+  padding-right: 45px;
+  padding-top: 50px;
+}
+.img-social{
+  width: 30px;
+  height: 30px;
+}
+nav{
+  border-radius: none;
+  overflow: hidden;
+}
+
+header nav ul li{
+  padding-right: 30px;
+  list-style: none;
+
+}
+
+header nav ul li a{
+  color: black;
+  padding: 10px;
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  background: grey;
+  text-decoration: none;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar {
+    text-align: center;
+    border-radius: 0px;
+    margin-bottom: 15px;
+}
+
+.navbar ul li a{
+  font-size: 20px;
+  padding-right:   40px;
+
+}
+
+.contenido1 .textoyfoto{
+
+  padding: 0px;
+
+}
+.contenido2 .textoyfoto{
+
+  padding:0px;
+
+}
+
+.mt{
+  width: 250px;
+  height: 250px;
+}
+
+.image-md{
+  padding-left:0px;
+  padding-top: 0px;
+}
+.areatexto{
+  padding: none;
+  margin-top: 5px;
+}
+
+p{
+  font-size: 13px;
+}
+
+.user{
+width: 70px;
+height: 70px;
+
+}
+
+.navbar-form{
+  width: 300px;
+  padding-left: 35px;
+}
+.btn{
+  height: 35px;
+}
+
+
+
+@media only screen and (max-width: 414px) {
+
+.user{
+  width: 45px;
+  height: 45px;
+  padding-right: 10px;
+}
+
+.contenedor-principal{
+  width: 100%;
+}
+.image-mt{
+  text-align: center;
+}
+.image-md{
+  text-align: center;
+}
+
+}
